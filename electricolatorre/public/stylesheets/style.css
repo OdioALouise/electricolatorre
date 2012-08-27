@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+canvas#canvasPrincipal {
+  height: 100%;
+  width: 100%;
+}
+
+div#inicial {
+  height: 15%;
+  width: 100%;
+}
+
+h1#titulo {
+  position: absolute;
+  left: 140px;
+  top: 100px;
+}

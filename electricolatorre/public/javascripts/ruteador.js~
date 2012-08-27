@@ -1,0 +1,25 @@
+define(["jquery", "underscore", "backbone", "vistas/inicial"], function(jQuery, _, Backbone, vistaInicial){
+
+  var ruteador = Backbone.Router.extend({
+
+  routes: {
+    "*path": "defaultAction",
+  },
+
+  defaultAction: function() {
+    console.log("llegamos?");
+      vistaInicial.render();
+     },
+
+  });
+  
+  iniciar = function(){
+  var rutas = new ruteador();
+  Backbone.history.start();
+  };
+
+  return {
+    iniciar : iniciar
+  };  
+  
+});

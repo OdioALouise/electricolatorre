@@ -1,0 +1,12 @@
+extends layout
+
+
+
+block content
+  meta(charset='UTF-8')
+
+  header
+
+  section#seccionPrincipal.seccionPrincipal
+
+  footer
